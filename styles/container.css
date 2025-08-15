@@ -26,11 +26,12 @@
   padding-right: 48px;
   height: 100vh;
   background-color: white;
+  flex-shrink: 0;
 }
 
 .mainContent {
   background-color: #fafafa;
-  width: 827px;
+  flex-grow: 1;
   padding: 48px 40px;
   display: flex;
   flex-direction: column;
@@ -191,6 +192,7 @@
   padding-bottom: 48px;
   padding-top: 48px;
   width: 400px;
+  flex-shrink: 0;
 }
 
 .rightBar h2 {
