@@ -127,6 +127,7 @@
   border-radius: 999px;
   width: 100%;
   justify-content: center;
+  color: #727883;
 }
 
 .verlaufButton p {
@@ -134,10 +135,9 @@
   font-family: "Magnetik";
   font-weight: 300;
   line-height: 18px;
-  color: #727883;
 }
 
-.verlaufButton:hover p {
+.verlaufButton:hover {
   color: #b18ff5;
 }
 
