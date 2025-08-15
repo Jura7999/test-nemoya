@@ -1,0 +1,204 @@
+.navigation-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.top-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.bottom-einklapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 292px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 24px;
+  padding-right: 48px;
+  height: 100vh;
+  background-color: white;
+}
+
+.mainContent {
+  background-color: #fafafa;
+  width: 827px;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+  justify-content: space-between;
+}
+
+.chatName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 28px;
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 999px;
+  font-family: "Magnetik";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.chatName h1 {
+  font-family: "Magnetik";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.userChat {
+  font-family: "Magnetik";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  color: #535862;
+  width: 100%;
+}
+
+.userPromt {
+  background-color: white;
+  padding: 20px 20px;
+  width: 470px;
+  border-radius: 20px;
+  font-family: "Magnetik";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #535862;
+}
+
+.chatContent {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 48px;
+}
+
+.addDokuments {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.maxDistanz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frageBot {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px, solid, #000000;
+}
+
+.frageBot p {
+  font-family: "Magnetik";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #535862;
+}
+
+.verlaufButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px;
+  background-color: #f4f5f5;
+  border-radius: 999px;
+  width: 100%;
+  justify-content: center;
+}
+
+.verlaufButton p {
+  font-size: 14px;
+  font-family: "Magnetik";
+  font-weight: 300;
+  line-height: 18px;
+  color: #727883;
+}
+
+.verlaufLöschen {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.content-link {
+  display: flex;
+  gap: 8px;
+}
+
+.Content-Block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 15px;
+}
+
+.Content-Block img {
+  width: 18px;
+  height: 18px;
+}
+
+.Content-Block h5 {
+  font-size: 14px;
+  font-family: "Magnetik";
+  font-weight: 700;
+  line-height: 18px;
+  color: #000000;
+}
+
+.Content-Block p {
+  font-size: 10px;
+  font-family: "Magnetik";
+  font-weight: 300;
+  line-height: 16px;
+  color: #727883;
+}
+
+.rightBar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 24px;
+  padding-right: 48px;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  width: 400px;
+}
+
+.rightBar h2 {
+  font-size: 18px;
+  font-family: "Magnetik";
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+}
+
+.right-prime-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

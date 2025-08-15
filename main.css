@@ -1,0 +1,37 @@
+@import url("/styles/navLink.css");
+@import url("/styles/container.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -- Magnetik Regular -- */
+@font-face {
+  font-family: "Magnetik";
+  src: url("/assets/fonts/MagnetikRegular/font.woff2") format("woff2"),
+    url("/assets/fonts/MagnetikRegular/font.woff") format("woff");
+  font-weight: 400; /* 400 ist der numerische Wert für 'normal' oder 'regular' */
+  font-style: normal;
+}
+
+/* -- Magnetik Light -- */
+@font-face {
+  font-family: "Magnetik";
+  src: url("/assets/fonts/MagnetikLight/font.woff2") format("woff2"),
+    url("/assets/fonts/MagnetikLight/font.woff") format("woff");
+  font-weight: 300; /* 300 ist der gängige Wert für 'light' */
+  font-style: normal;
+}
+
+/* -- Magnetik Bold -- */
+@font-face {
+  font-family: "Magnetik";
+  src: url("/assets/fonts/MagnetikBold/font.woff2") format("woff2"),
+    url("/assets/fonts/MagnetikBold/font.woff") format("woff");
+  font-weight: 700; /* 700 ist der numerische Wert für 'bold' */
+  font-style: normal;
+}
