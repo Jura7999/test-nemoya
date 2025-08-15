@@ -137,6 +137,10 @@
   color: #727883;
 }
 
+.verlaufButton:hover p {
+  color: #b18ff5;
+}
+
 .verlaufLöschen {
   display: flex;
   gap: 12px;
@@ -201,4 +205,10 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.icon:hover {
+  background-color: #f4f5f5;
+  padding: 10px 10px;
+  border-radius: 999px;
 }

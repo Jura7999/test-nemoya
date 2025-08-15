@@ -6,4 +6,10 @@
   padding: 8px 12px;
   font-family: "Magnetik";
   font-weight: 400;
+  border-radius: 15px;
+}
+
+.navLink:hover {
+  background-color: #f4f5f5;
+  color: #b18ff5;
 }
