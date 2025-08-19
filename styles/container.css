@@ -24,7 +24,6 @@
   padding-bottom: 48px;
   padding-left: 24px;
   padding-right: 48px;
-  height: 100vh;
   background-color: white;
   flex-shrink: 0;
 }
@@ -213,4 +212,60 @@
   background-color: #f4f5f5;
   padding: 10px 10px;
   border-radius: 999px;
+}
+
+.chatArea {
+  border: none;
+  outline: none;
+  font-family: "Magnetik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727883;
+
+  width: 100%;
+  background-color: transparent;
+  resize: none;
+}
+
+.chatButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  font-family: "Magnetik";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.chatButton--active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background-color: #fafafa;
+  font-family: "Magnetik";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.chatButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actionGroup-Chat {
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
 }
